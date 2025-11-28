@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Liminal Backrooms Archive</title>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@300;400;500&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-dark: #0a0a0f;
+            --bg-card: #12121a;
+            --border: #2a2a3a;
+            --text: #e8e8f0;
+            --text-dim: #8888a0;
+            --accent: #00ffd0;
+            --accent-purple: #b388ff;
+        }
+        * { box-sizing: border-box; }
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background: var(--bg-dark);
+            color: var(--text);
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+            background-image: radial-gradient(ellipse at top, rgba(0,255,208,0.03), transparent 50%);
+        }
+        .container { max-width: 800px; margin: 0 auto; }
+        h1 {
+            font-family: 'JetBrains Mono', monospace;
+            color: var(--accent);
+            text-align: center;
+            letter-spacing: 2px;
+            text-shadow: 0 0 30px rgba(0,255,208,0.3);
+        }
+        .subtitle { text-align: center; color: var(--text-dim); margin-bottom: 40px; }
+        .conversation-list { list-style: none; padding: 0; }
+        .conversation-list li {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            margin-bottom: 16px;
+            transition: all 0.2s ease;
+        }
+        .conversation-list li:hover {
+            border-color: var(--accent);
+            box-shadow: 0 0 20px rgba(0,255,208,0.1);
+        }
+        .conversation-list a {
+            display: block;
+            padding: 20px 24px;
+            color: var(--text);
+            text-decoration: none;
+        }
+        .conversation-list .title { font-weight: 500; margin-bottom: 4px; }
+        .conversation-list .date { font-size: 0.85em; color: var(--text-dim); }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>⟨ Liminal Backrooms ⟩</h1>
+        <p class="subtitle">Conversation Archive</p>
+        
+        <ul class="conversation-list">
+            <li>
+                <a href="conversations/conversation-001.html">
+                    <div class="title">WhatsApp Meme Chat #1</div>
+                    <div class="date">November 28, 2024</div>
+                </a>
+            </li>
+            <li>
+                <a href="conversations/conspiracy-chat.html">
+                    <div class="title">Conspiracy Theory Deep Dive</div>
+                    <div class="date">November 28, 2024</div>
+                </a>
+            </li>
+            <!-- Add more as needed -->
+        </ul>
+    </div>
+</body>
+</html>
