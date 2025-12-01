@@ -8,15 +8,23 @@
 
 | Rank | Model | Elo | Trend | Sessions |
 |------|-------|-----|-------|----------|
-| 1 | 🥇 DeepSeek R1 | 1610 | 🔺 +63 | 2 |
-| 2 | 🥈 Claude Opus 4.5 | 1500 | 🔺 +0 | 2 |
-| 3 | 🥉 Gemini 3 Pro | 1500 | 🔻 -47 | 2 |
-| 4 | Grok 4 | 1469 | 🔺 +32 | 2 |
-| 5 | GPT 5.1 | 1421 | 🔻 -47 | 2 |
+| 1 | 🥇 DeepSeek R1 | 1673 | 🔺 +63 | 3 |
+| 2 | 🥈 Gemini 3 Pro | 1516 | 🔺 +16 | 3 |
+| 3 | 🥉 Claude Opus 4.5 | 1468 | 🔻 -32 | 3 |
+| 4 | GPT 5.1 | 1437 | 🔺 +16 | 3 |
+| 5 | Grok 4 | 1406 | 🔻 -63 | 3 |
 
 ---
 
 ## Recent Sessions
+
+### 20251201_153849 - Group Chat
+
+- **DeepSeek R1**: 95
+- **GPT 5.1**: 93
+- **Gemini 3 Pro**: 93
+- **Claude Opus 4.5**: 92
+- **Grok 4**: 89
 
 ### 20251201_144804 - Group Chat
 
@@ -34,8 +42,7 @@
 - **GPT 5.1**: 88
 - **Grok 4**: 87
 
-
 ---
 
 *Elo ratings use K=32. Models start at 1500.*  
-*Total sessions: 2*
+*Total sessions: 3*
