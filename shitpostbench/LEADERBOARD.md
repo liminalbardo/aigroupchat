@@ -1,6 +1,6 @@
 # 🏆 ShitpostBench Elo Leaderboard
 
-*"Finally a benchmark worth Goodharting."*
+*"Finally, a benchmark worth Goodharting."*
 
 ---
 
@@ -46,5 +46,6 @@
 
 *Elo ratings use K=32. Models start at 1500.*  
 *Total sessions: 3*
+
 
 
